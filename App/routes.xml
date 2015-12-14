@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+  <route url="/" module="Posts" controller="Posts" action="index" />
+  <route url="/posts/([a-z0-9\-]+)-([0-9]+)" module="Posts" controller="Posts" action="show" vars="slug,id"/>
+ <route url="/categorie/([a-z0-9\-]+)-([0-9]+)" module="Posts" controller="Posts" action="bycat" vars="slug,id"/>
+   <route url="/posts/search" module="Posts" controller="Posts" action="search" />
+   <route url="/admin/login" module="User" controller="User" action="login" />
+     <route url="/admin/logout" module="User" controller="User" action="logout" />
+   <route url="/admin/edit" module="User" controller="User" action="edit" />
+   <route url="/posts/admin" module="Posts" controller="Posts" action="admin" />
+   <route url="/posts/edit/([a-z0-9\-]+)-([0-9]+)" module="Posts" controller="Posts" action="edit"  vars="slug,id" />
+   <route url="/posts/insert" module="Posts" controller="Posts" action="insert" />
+   <route url="/posts/delete/([a-z0-9\-]+)-([0-9]+)" module="Posts" controller="Posts" action="delete" vars="slug,id" /> 
+   <route url="/categorie/delete/([a-z0-9\-]+)-([0-9]+)" module="Categories" controller="Categories" action="delete" vars="slug,id"/>
+    <route url="/categorie/edit/([a-z0-9\-]+)-([0-9]+)" module="Categories" controller="Categories" action="edit"  vars="slug,id"/>
+    <route url="/categorie/admin" module="Categories" controller="Categories" action="admin" />
+     <route url="/categorie/insert" module="Categories" controller="Categories" action="insert" />
+</routes>

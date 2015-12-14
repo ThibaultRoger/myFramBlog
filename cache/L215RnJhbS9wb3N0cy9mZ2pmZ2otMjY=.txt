@@ -1,0 +1,188 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thibault Roger </title>
+
+     <!-- Bootstrap Core CSS -->
+    <link href="/myFram/web/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/myFram/web/css/blog-home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+ <!-- Navigation -->
+   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <p class="navbar-brand" >Thibault Roger Blog </p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/myFram">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Navigation -->
+    
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
+
+              
+
+                <!-- Blog Post -->
+                        	
+<div class="row">
+	<div class="span13">
+		<div class="page-header">
+			<h1 >lolll <br> <small><a href="/myFram/categorie/sysadmin-3">Sysadmin</a></small></h1>
+		<img class="img-responsive" src="/myFram/web/img/starterpack.png" alt="">
+		</div>
+		<h1>OKKKK</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in accumsan justo. Integer nec urna quam. Nunc ut dui elit, eu facilisis nisl. Pellentesque varius tellus vel felis condimentum iaculis. Vestibulum ultrices turpis eu tellus eleifend scelerisque. Donec vitae odio dui, vel bibendum odio. Praesent vestibulum turpis at massa sollicitudin imperdiet. Fusce pulvinar, elit id facilisis vestibulum, urna dolor auctor lorem, non fringilla neque erat sit amet purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur posuere magna ut eros tincidunt tristique. Praesent eros ligula, volutpat et hendrerit a, interdum ut libero. Nullam metus lacus, tincidunt egestas sagittis ut, ultricies eu tellus. Vivamus consequat lectus sed magna sodales non lobortis libero interdum.</p>
+<blockquote>
+<p>Quisque et risus purus. Integer varius, neque in egestas hendrerit, purus orci suscipit est, ac vehicula.</p>
+<small>Maitre yoda</small></blockquote>
+<ul>
+<li>Aliquam dapibus ligula at leo luctus feugiat.</li>
+<li>Etiam egestas commodo lacus, ut euismod lectus dignissim quis.</li>
+</ul>
+<ul>
+<li>Praesent sed risus a turpis vehicula lobortis.</li>
+<li>Nullam luctus ullamcorper arcu, interdum hendrerit sapien suscipit in.</li>
+<li>Phasellus adipiscing elementum ipsum, eu pharetra sapien aliquam eu.</li>
+</ul>
+<p>Nunc est risus, dapibus ut iaculis at, aliquam non libero. Curabitur ipsum elit, volutpat quis fringilla sed, aliquet sit amet est. Aenean est nulla, ullamcorper id viverra quis, vestibulum nec nisl. Maecenas eget nisi elit. Cras tempor porta sapien ut volutpat. Sed sodales tortor et nulla aliquam fermentum. Pellentesque eu quam arcu, lacinia ultricies lectus. Nunc interdum aliquam blandit.</p>
+<p>In accumsan facilisis tempus. Quisque elit nunc, cursus quis ullamcorper in, ultrices et est. Proin lectus ipsum, eleifend at iaculis quis, tincidunt vitae sem. Mauris vel est felis, ut pharetra lorem. Donec nunc magna, eleifend vitae sagittis at, blandit id elit. Mauris pellentesque ligula id dui condimentum ut gravida mi accumsan. Nullam tincidunt urna eros, et ultricies dolor. Aenean sit amet adipiscing tortor.</p>
+<p>Nam nibh nunc, cursus a blandit id, vestibulum sed lectus. Praesent quis neque ipsum. Aliquam arcu quam, condimentum quis consequat et, ultricies eget ligula. Cras sed metus laoreet orci dignissim pharetra. Suspendisse varius, mauris ut egestas placerat, nunc mauris vestibulum risus, et porttitor ante arcu sit amet lorem. Nulla laoreet urna quis augue blandit venenatis. Donec ullamcorper, augue ac vestibulum semper, lorem leo pharetra urna, nec imperdiet leo lorem sit amet dui. Pellentesque cursus nunc in lacus bibendum sit amet sagittis velit fringilla. Mauris ornare justo dui, at mattis felis. Duis orci purus, tincidunt vel eleifend sit amet, rutrum tempor massa. Praesent nec dui mauris. Sed viverra venenatis pellentesque. Phasellus sodales odio vel nunc molestie sed placerat ipsum sollicitudin. Integer quam lacus, dignissim vel vulputate vitae, aliquam quis velit.</p>	</div>
+	
+</div>
+
+
+
+
+              
+                <!-- Pager -->
+                
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
+                 <div class="well">
+                    <h4>Recherche</h4>
+                    <form action="/myFram/posts/search" method="post" >
+                    <div class="input-group">
+                        <input type="text" name="search" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    </form>
+                    </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Categories</h4>
+                    <div class="row">
+                        <div >
+                                                      
+                                
+                                			                <a class="list-group-item" href="/myFram/categorie/php-1" >Phpzerty</a></li>	
+		                     			                <a class="list-group-item" href="/myFram/categorie/linux-2" >Linux</a></li>	
+		                     			                <a class="list-group-item" href="/myFram/categorie/sysadmin-3" >Sysadmin</a></li>	
+		                      
+                        </div>
+                        
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Derniers Articles</h4>
+                     <div class="row">
+                                                         
+                                			               <li>   <a href="/myFram/posts/gallerie-29">edit</a></li>	
+		                     			               <li>   <a href="/myFram/posts/gallerie-31">test</a></li>	
+		                     			               <li>   <a href="/myFram/posts/cache-30">cache</a></li>	
+		                     			               <li>   <a href="/myFram/posts/gallerie-28">&lt;strong&gt;lol&lt;/strong&gt;</a></li>	
+		                     			               <li>   <a href="/myFram/posts/fgjfgj-26">lolll</a></li>	
+		                      
+                        </div>
+                        
+                        <!-- /.col-lg-6 -->
+                    </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="" ></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src=""/myFram/web/js/bootstrap.min.js""></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
