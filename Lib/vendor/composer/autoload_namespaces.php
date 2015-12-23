@@ -4,6 +4,6 @@
 
 $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
-
-return array(
+$baseDirDir = dirname($baseDir);
+return array( 'rep'=>$baseDirDir,
 );

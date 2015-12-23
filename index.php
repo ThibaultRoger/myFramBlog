@@ -18,10 +18,16 @@ if (defined('ENVIRONMENT')) {
     switch (ENVIRONMENT) {
         case 'development':
             error_reporting(E_ALL);
+            ini_set("display_errors","On");
+            ini_set('log_errors', 'On');
+              ini_set('error_log', 'logs/errors.log');
             
             break;
         case 'production':
-            error_reporting(0);
+            error_reporting(E_All);
+           ini_set("display_errors","Off");
+           ini_set('log_errors', 'On');
+           ini_set('error_log', 'logs/errors.log');
             break;
         default:
             exit('L environnement de travail n \'est pas défini.');
@@ -31,9 +37,24 @@ if (defined('ENVIRONMENT')) {
 
 
 
+
 use Lib\Core\Routes;
 use Lib\Core\Session;
-Routes::Router();
+use Lib\Core\Cache;
+ $cache = new Cache();
+ if(file_exists($cache->cacheFileName) ){
+              $cache->cacheFileName;
+              $cache->caching = false;
+                echo file_get_contents($cache->cacheFileName);
+                exit();
+            }
+else {
+	Routes::Router();
+}
+ $dir = dirname(dirname(__FILE__));
+			
+
+           
 ?>
 <?php if (defined('ENVIRONMENT')) { 
 	 switch (ENVIRONMENT) {
