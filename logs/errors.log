@@ -1,1 +1,110 @@
 
+[24-Dec-2015 19:51:52 Europe/Paris] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php on line 8
+[24-Dec-2015 19:51:52 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   3. App\Modules\User\Controllers\UserController->login() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/User/Controllers/UserController.php:24
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   6. Lib\Core\Controller->call() /var/www/myFramBlog/App/Layouts/layout.php:123
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   7. spl_autoload_call() /var/www/myFramBlog/App/Layouts/layout.php:74
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   8. Composer\Autoload\ClassLoader->loadClass() /var/www/myFramBlog/App/Layouts/layout.php:0
+[24-Dec-2015 19:51:52 Europe/Paris] PHP   9. Composer\Autoload\includeFile() /var/www/myFramBlog/Lib/vendor/composer/ClassLoader.php:301
+[24-Dec-2015 19:51:55 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:51:55 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:51:55 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:51:55 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:51:55 Europe/Paris] PHP   3. App\Modules\User\Controllers\UserController->login() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:51:55 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/User/Controllers/UserController.php:28
+[24-Dec-2015 19:51:55 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:52:00 Europe/Paris] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php on line 8
+[24-Dec-2015 19:52:00 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:52:00 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:52:00 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:52:00 Europe/Paris] PHP   3. spl_autoload_call() /var/www/myFramBlog/index.php:47
+[24-Dec-2015 19:52:00 Europe/Paris] PHP   4. Composer\Autoload\ClassLoader->loadClass() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:52:00 Europe/Paris] PHP   5. Composer\Autoload\includeFile() /var/www/myFramBlog/Lib/vendor/composer/ClassLoader.php:301
+[24-Dec-2015 19:52:13 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:52:13 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:52:13 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:52:13 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:52:13 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->admin() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:52:13 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:58
+[24-Dec-2015 19:52:13 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:56:02 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:56:02 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:56:02 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:56:02 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:56:02 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:56:02 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:118
+[24-Dec-2015 19:56:02 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:56:09 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:56:09 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:56:09 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:56:09 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:56:09 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:56:09 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:102
+[24-Dec-2015 19:56:09 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:56:13 Europe/Paris] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT p.id,p.content,p.name,p.slug,p.category_id,c.name as catname,p.pathimg,c.' at line 3 in /var/www/myFramBlog/App/Modules/Posts/Models/Posts.php on line 23
+[24-Dec-2015 19:56:13 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:56:13 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:56:13 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:56:13 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->index() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:56:13 Europe/Paris] PHP   4. App\Modules\Posts\Models\Posts->findall() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:16
+[24-Dec-2015 19:56:13 Europe/Paris] PHP   5. PDOStatement->execute() /var/www/myFramBlog/App/Modules/Posts/Models/Posts.php:23
+[24-Dec-2015 19:57:25 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:57:25 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:57:25 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:57:25 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:57:25 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:57:25 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:102
+[24-Dec-2015 19:57:25 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:57:29 Europe/Paris] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT p.id,p.content,p.name,p.slug,p.category_id,c.name as catname,p.pathimg,c.' at line 3 in /var/www/myFramBlog/App/Modules/Posts/Models/Posts.php on line 23
+[24-Dec-2015 19:57:29 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:57:29 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:57:29 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:57:29 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->index() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:57:29 Europe/Paris] PHP   4. App\Modules\Posts\Models\Posts->findall() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:16
+[24-Dec-2015 19:57:29 Europe/Paris] PHP   5. PDOStatement->execute() /var/www/myFramBlog/App/Modules/Posts/Models/Posts.php:23
+[24-Dec-2015 19:57:59 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:57:59 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:57:59 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:57:59 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:57:59 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:57:59 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:102
+[24-Dec-2015 19:57:59 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:58:30 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:58:30 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:58:30 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:58:30 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:58:30 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:58:30 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:102
+[24-Dec-2015 19:58:30 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:58:51 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:58:51 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:58:51 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:58:51 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:58:51 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->admin() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:58:51 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:58
+[24-Dec-2015 19:58:51 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:59:22 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:59:22 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:59:22 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:59:22 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:59:22 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->admin() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:59:22 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:58
+[24-Dec-2015 19:59:22 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:59:25 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:59:25 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:59:25 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:59:25 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:59:25 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:59:25 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:118
+[24-Dec-2015 19:59:25 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46
+[24-Dec-2015 19:59:31 Europe/Paris] PHP Fatal error:  Class 'Router' not found in /var/www/myFramBlog/App/Layouts/admin.php on line 33
+[24-Dec-2015 19:59:31 Europe/Paris] PHP Stack trace:
+[24-Dec-2015 19:59:31 Europe/Paris] PHP   1. {main}() /var/www/myFramBlog/index.php:0
+[24-Dec-2015 19:59:31 Europe/Paris] PHP   2. Lib\Core\Routes::Router() /var/www/myFramBlog/index.php:52
+[24-Dec-2015 19:59:31 Europe/Paris] PHP   3. App\Modules\Posts\Controllers\PostsController->edit() /var/www/myFramBlog/Lib/Core/Routes.php:54
+[24-Dec-2015 19:59:31 Europe/Paris] PHP   4. Lib\Core\Controller->render() /var/www/myFramBlog/App/Modules/Posts/Controllers/PostsController.php:102
+[24-Dec-2015 19:59:31 Europe/Paris] PHP   5. require() /var/www/myFramBlog/Lib/Core/Controller.php:46

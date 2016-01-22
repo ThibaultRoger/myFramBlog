@@ -2,20 +2,20 @@
 namespace App\Modules\Posts\Models;
 
 use Lib\Core\Model;
-
+use Lib\Core\Pagination;  
 use PDO;
   class Posts extends Model {
   
 
 
  public function findall () {
-
+     $perpage = 5;
 	$sql = 'SELECT p.id,p.content,p.name,p.slug,p.category_id,c.name as catname,p.pathimg,c.slug as catslug 
 			FROM posts as p 
 			INNER JOIN categories as c ON p.category_id = c.id 
 			ORDER BY created DESC ';
-    
-	$pre = $this->db->prepare($sql); 
+          $pagination = Pagination::Paginate($sql);
+	$pre = $this->db->prepare($sql, $page, $perpage ); 
 		$pre->execute(); 
 		return $pre->fetchAll(PDO::FETCH_OBJ);
 		

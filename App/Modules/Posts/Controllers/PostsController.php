@@ -4,7 +4,7 @@ use Lib\Core\Controller;
 use Lib\Core\Cache;
 use App\Modules\Posts\Models\Posts;
 use App\Modules\Posts\Models\PostsDAO;
-  
+
   class PostsController extends Controller {
     
   
@@ -12,8 +12,10 @@ use App\Modules\Posts\Models\PostsDAO;
   public function index(){
 	$cache = new Cache();
  $cache->start(); 
+        //$_GET['page'];
+        $page = 1;
        $appel = new Posts();
-       $posts = $appel->findall();
+       $posts = $appel->findall($page);
      $this->variable('posts', $posts); 
 	$this->render('index', 'Posts');
 	 $cache->end();
